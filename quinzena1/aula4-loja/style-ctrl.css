@@ -1,0 +1,44 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lustria', serif;
+}
+
+.logo {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+header {
+    padding: 10px;
+    color: #51260E;
+    background-color: #FCF2ED;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: #51260E;
+    margin-top: 10%;
+}
+
+#ctrl {
+    text-align: center;
+    color: #51260E;
+}
+
+table,
+td {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 20%;
+    color: #51260E;
+}
+
+footer {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    background-color: #FCF2ED;
+}
