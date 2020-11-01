@@ -1,0 +1,191 @@
+    body {
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .logo {
+        margin-left: 30px;
+    }
+    
+    img {
+        height: 50px;
+    }
+    
+    header {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr) 400px;
+        grid-column-gap: 10px;
+        background-color: #8350F2;
+        color: #ffff;
+    }
+    
+    a:link,
+    a:visited,
+    a:active {
+        text-decoration: none;
+        color: #ffff;
+    }
+    
+    .home {
+        margin-top: 20px;
+        color: #ffff;
+    }
+    
+    .projeto {
+        margin-top: 20px;
+        color: #ffff;
+    }
+    
+    .habilidades {
+        margin-top: 20px;
+        color: #ffff;
+    }
+    
+    .sobre {
+        margin-top: 20px;
+        color: #ffff;
+    }
+    
+    .fale-comigo {
+        margin-top: 20px;
+        color: #ffff;
+        margin-left: 200px;
+    }
+    
+    #main-session-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 0px;
+        margin-left: 30px;
+        text-align: left;
+    }
+    
+    #main-session-1 h1 {
+        font-size: 45px;
+        padding-bottom: 20px;
+    }
+    
+    .saiba-mais {
+        margin-top: 80px;
+        background-color: #8350F2;
+        color: #ffff;
+        text-align: center;
+        border-radius: 4px;
+        border-color: #8350F2;
+        font: normal bold 20px "Montserrat", sans-serif;
+    }
+    
+    .illustration {
+        max-width: 500px;
+        max-height: 500px;
+        width: auto;
+        height: auto;
+        margin-left: 30px;
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    #main-session-2 {
+        background-color: #8350F2;
+        color: #ffff;
+        text-align: center;
+    }
+    
+    #main-session-2 h2 {
+        padding-top: 50px;
+    }
+    
+    .container-projects {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 25px;
+        margin-left: 30px;
+        margin-right: 20px;
+        padding: 40px;
+        padding-top: 0px;
+    }
+    
+    .container-skills {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        margin-left: 30px;
+        margin-right: 20px;
+        padding-top: 40px;
+        place-items: center;
+    }
+    
+    .skills {
+        text-align: center;
+    }
+    
+    .picture {
+        height: 150px;
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+    
+    #main-session-4 {
+        margin-top: 80px;
+        text-align: center;
+    }
+    
+    .sobre-mim {
+        padding: 30px;
+        background-color: #8350F2;
+        color: #ffff;
+    }
+    
+    .container-about {
+        display: grid;
+        grid-template-columns: 1fr 7fr;
+        margin-left: 30px;
+        text-align: left;
+    }
+    
+    .container-experiencia {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+    
+    #button-forms {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cta {
+        background-color: #ffff;
+        color: #8350F2;
+        text-align: center;
+        border-radius: 4px;
+        border-color: #ffff;
+        font: bold 15px "Montserrat", sans-serif;
+    }
+    
+    #button-forms {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-style: normal;
+    }
+    
+    .btn {
+        background-color: #8350F2;
+        color: #ffff;
+        text-align: center;
+        border-radius: 4px;
+        border-color: #8350F2;
+        font: normal bold 25px "Montserrat", sans-serif;
+    }
+    
+    #footer {
+        background-color: #8350F2;
+        padding: 20px;
+        text-align: center;
+    }
