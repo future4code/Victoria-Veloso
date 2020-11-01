@@ -1,0 +1,36 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    color: #51260E;
+    font-family: 'Lustria', serif;
+}
+
+.logo {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+header {
+    padding: 1px;
+    background-color: #FCF2ED;
+}
+
+#welcome {
+    color: #51260E;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: #51260E;
+    padding: 1px;
+}
+
+footer {
+    margin-top: 13%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    background-color: #FCF2ED;
+}
