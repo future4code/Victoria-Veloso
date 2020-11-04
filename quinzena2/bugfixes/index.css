@@ -34,10 +34,6 @@ img {
     width: 100px;
 }
 
-div>p:first-child {
-    display: inline;
-}
-
 #botao-amarelo {
     background-color: #ffaf43;
     width: 250px;
@@ -61,6 +57,10 @@ div>p:first-child {
     width: 20px;
 }
 
+.icone:hover {
+    opacity: 0.5;
+}
+
 
 /** 
   *
@@ -78,14 +78,15 @@ div>p:first-child {
 }
 
 #container-de-descricao ol {
-    padding: 15px 0px;
+    padding-left: 600px;
+    text-align: left;
 }
 
 #container-para-comprar {
     background-color: #e7eb90;
 }
 
-#container-para-comprar>p {
+#container-para-comprar p {
     color: #c44f00;
     padding: 100px 0;
     font-size: 60px;
@@ -139,6 +140,7 @@ td img {
     border-radius: 5px;
     font-size: 10px;
     color: black;
+    margin-top: 100px;
 }
 
 #back-button:hover {
