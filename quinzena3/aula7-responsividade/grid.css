@@ -127,3 +127,15 @@ body {
         grid: 1fr/ 1fr;
     }
 }
+
+@media screen and (max-width: 420px) {
+    .green-block {
+        grid-column: span 2;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .green-block {
+        grid-column: span 1;
+    }
+}
